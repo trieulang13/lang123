@@ -1,0 +1,17 @@
+body {
+	background-color:  rgb(255,255,240);
+}
+textarea {
+	scrollbar-3dlight-color: #C0C0C0;
+scrollbar-shadow-color: silver;
+scrollbar-arrow-color: black;
+scrollbar-face-color: gray;
+
+}
+ .EmailEditor {
+ 	background-color:  #FFFFDD;
+ }
+ .Imghelp {
+ 	cursor: pointer;
+ }
+ 

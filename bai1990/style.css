@@ -1,0 +1,55 @@
+.header {
+			height: 200px;
+			width: 100%;
+			
+		}
+		.main {
+			height: 70%;
+			width: 100%;
+			margin-top: 0px auto;
+		}
+		.left {
+			float: left;
+			height: 500px;
+			width: 32%;
+			border-top: 2px solid gray;
+			padding-left: 50px;
+
+		}
+		.right {
+			float: right;
+			height: 500px;
+			width: 64%;
+			padding-left: 0px auto;
+			border-left: 2px solid gray;
+			border-top: 2px solid gray;
+		}
+		.hcenter {
+			width: 600px;
+			height: 180px;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0 auto;
+			margin-top: 45px;
+			background-color: tomato;
+		}
+		.text1{
+ 			font-family: 'Unica One';			
+ 			text-align: center;
+			font-size: 30px;
+    		padding-top: 44px;
+    		margin-left: 40px;
+			color: #A03055;
+		}
+		.text2 {
+			 font-family: 'Clicker Script';
+			font-size: 50px;
+		    margin-left:  400px;
+   			padding-top: 3px;
+			color: #336A2A;
+
+		}
+		h4, h2 {
+			font-weight: normal;
+			margin-left: 3px;
+		}
