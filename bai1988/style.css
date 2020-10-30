@@ -3,15 +3,74 @@ body {
 }
 textarea {
 	scrollbar-3dlight-color: #C0C0C0;
-scrollbar-shadow-color: silver;
-scrollbar-arrow-color: black;
-scrollbar-face-color: gray;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
 
 }
  .EmailEditor {
  	background-color:  #FFFFDD;
+ 	border: solid grey 1px;
  }
  .Imghelp {
  	cursor: pointer;
+ 	background-color:  #DDFFEE;
+ 	color: blue;
+ 	position: absolute;
+ 	right: 25%;
  }
- 
+ #main {
+ 	width: 400px;
+ 	background-color:  #DDFFEE;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	margin: 0px auto;
+ }
+#help {
+	width: 500px;
+	height: 420px;
+	padding-top: 10px;
+	background-color: #cfc;
+	padding-left: 10px;
+ 	padding-right: 10px;
+ 	border:2px solid  #E4E7E7;
+ 	color:  #303030;
+
+}
+.close {
+	text-align: right;
+	color: blue;
+	cursor: hand;
+} 
+ul {
+	list-style-image: url('photos/help.jpg');
+	list-style-type: square;
+	list-style-position: inside;
+ }
+ .row {
+	width: 100%;
+	display: flex;
+	margin-bottom: 15px;
+}
+ .col1 {
+	width: 33.33%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.col2 {
+	width: 66.67%;
+	float: left;
+	padding-right: 10px;
+}
+.Close {
+	text-align: right;
+	color: blue;
+	cursor: pointer;
+}
+button {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}

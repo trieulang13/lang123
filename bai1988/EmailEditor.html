@@ -6,6 +6,61 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<button class="imgHelp" onclick="clickHelp()">Help</button>
+	<div id="main">
+		<form action="status.html" method="post">
+		<h2>Compose e-mail massage.</h2>
+		<div class="row">
+			<div class="col1">To:</div>
+			<div class="col2"><input type="text" class="EmailEditor" name="to"></div>
+		</div>
+		<div class="row">
+			<div class="col1">From:</div>
+			<div class="col2"><input type="text" class="EmailEditor" name="to"></div>
+		</div>
+		<div class="row">
+			<div class="col1">Cc:</div>
+			<div class="col2"><input type="text" class="EmailEditor" name="to"></div>
+		</div>
+		<div class="row">
+			<div class="col1">Subject:</div>
+			<div class="col2"><input type="text" class="EmailEditor" name="to"></div>
+		</div>
+		<div class="row">
+			<div class="col1">Message:</div>
+			<div class="col2"><textarea rows="7" cols="30" class="EmailEditor"></textarea></div>
+		</div>
+		<div class="row">
+			<div class="col1"></div>
+			<div class="col2">
+				<button>Send</button>
+				<button>Cancel</button>
+		</div>
+		</form>
+	</div>
+	<div id="help">
+			<h2>-: E-mail Editor Help :-</h2>
+			<ul>
+				<li><b>To anh Cc:</b>
+					<br><b>To</b> and <b>Cc</b> boxes allow you to enter the e-mail addresses of the recepients to whom to message has to be sent. Recipients will be able to see who else was sent the message by looking at the contents of the <b>To</b> and <b>Cc</b> boxes.
+					</li>
+					<li>Subject: <br>
+						The <b>Subject</b> box allows to enter meaningful summary of the message.</li>
+					<li><b>Message:</b>
+					    <br>The <b>Message</b>TextArea allows you to enter the text of your message.</li>	
+			</ul> 
+			<div class="Close" onclick="closeHellp()">Close</div>
+		</div>
+		<script type="text/javascript">
+			function clickHelp() {
+			document.getElementById('help').style.display = 'block';
+			document.getElementById('main').style.display = 'none';
+	}
 
+			function closeHellp() {
+			document.getElementById('help').style.display = 'none';
+			document.getElementById('main').style.display = 'block';
+	}
+</script>
 </body>
 </html>
