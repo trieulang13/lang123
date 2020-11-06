@@ -1,0 +1,87 @@
+		a.nav-link {
+			color: black;
+		}
+		div.row {
+			background-color: #ff5c00;
+			padding-left: 60px
+		}
+		a.active {
+			color: white;
+		}
+		.banners.item-1 {
+		  padding:0 5px 0 0;
+		  margin-top:10px;
+		}
+		.banners.item-2{
+		  padding: 0 0 0 5px;
+		  margin-top:10px;
+		}
+		.sps {
+			margin-top: 15px;
+			width: 100% ;
+			height: 27px;
+			float: left;
+			border-top: solid #ff5c00;
+			border-radius: 5px;
+			background-color: white;
+			color: white;
+		}
+		.spx {
+			margin-top: 15px;
+			width: 100% ;
+			height: 27px;
+			float: left;
+			border-top: solid #449df0;
+			border-radius: 5px;
+			background-color: white;
+			color: white;
+		}
+		.spf {
+			padding: 20px;
+			margin-top: 30px;
+			width: 100% ;
+			height: auto;
+			float: left;
+			background-color:  #ff5c00;
+			color: white;
+			text-align: center;
+			margin-bottom: 50px
+			
+		}
+
+		div.desc {
+			padding: 15px;
+			text-align: center;
+			text-decoration: none;
+
+		}
+		.price {
+		    margin: 0 0 10px 0;
+		    line-height: normal;
+		    color: #ff5c00;
+		    font-size: 16px;
+		    font-weight: 700;
+		    border-top: thin grey; 
+		}
+		 .price-new {
+		  font-weight: 500;
+		  
+		}
+		 .price-old {
+		    font-size: 13px;
+		    color: #c2c2c2;
+		    text-decoration: line-through;
+		    margin-right: 8px;
+		    font-weight: 400;
+		}
+		.tht {
+			color: #54514a;
+			text-align: center;
+			size: 150px;
+			margin-bottom: 20px;
+		}		
+		.finish {
+			margin: 1700px 0px 100px 0px;
+			line-height: 50px;
+			font-size: 15px;
+		}
